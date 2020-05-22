@@ -15,7 +15,7 @@ function Footer() {
             <span className="px-1" role="img" aria-label="arrow icon">
                 <FontAwesomeIcon icon={faArrowRight}/>
             </span>
-            <a href="https://github.com/clarenceOnline" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/clarnx" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faGithub} />
             </a>
         </footer>
