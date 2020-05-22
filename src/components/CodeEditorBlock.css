@@ -1,0 +1,24 @@
+#editor-block-wrapper {
+    height: 100%;
+    overflow: hidden;
+}
+
+#code-input-block .CodeMirror {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+}
+
+#code-output-block .CodeMirror {
+    height: 100%;
+}
+
+#code-input-block .react-codemirror2 {
+    min-height: 70%;
+    height: 100%;
+
+}
+
+pre.CodeMirror-placeholder  { /* Most modern browsers support this now. */
+   color: #ADAFAE !important;
+}

@@ -1,0 +1,13 @@
+#navbar-wrapper {
+    height: auto;
+}
+
+@media (max-width: 525px) {  
+    nav a span.h3 {
+        font-size: 1.2rem;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
