@@ -8,7 +8,7 @@ import ErrorAlert from './ErrorAlert';
 import { CodeEditorContext } from './CodeEditorBlock';
 import setCurrentInputCodeToLocalStorage from '../utils/setCurrentInputCodeToLocalStorage';
 
-//continue here remove lodash;
+
 function CodeInputBlock() {
 
   const debounceRef = useRef();
@@ -19,7 +19,7 @@ function CodeInputBlock() {
   const transpileCode = (inputCode) => {
     try {
       
-      const transpiledOutputCode = Babel.transform(inputCode, { presets: ['env', 'react'] }).code;
+      const transpiledOutputCode = Babel.transform(inputCode, { filename: 'repl.tsx', presets: ['env', 'react', 'typescript'] }).code;
   
       dispatch({type: "SET_OUTPUT_VALUE", payload: {transpiledOutputCode}});
     } catch (error) {
@@ -33,9 +33,6 @@ function CodeInputBlock() {
     debounceRef.current(inputCode);
     
   }
-  // const handleOnChange = (editor, data, value) => {
-  //   console.log("executed");
-  // }
 
   useEffect(() => {
     setCurrentInputCodeToLocalStorage(currentInputCode);
