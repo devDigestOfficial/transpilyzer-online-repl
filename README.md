@@ -5,7 +5,7 @@ Transpilyzer Online REPL is used for transpiling next generation JavaScript  cod
 
 DEPLOYED SITE: https://transpilyzer-repl.netlify.app/
 
-## Core packages
+## 📦 Core packages
 
 1. Frontend - React
 2. Code Editor - Codemirror
@@ -13,10 +13,10 @@ DEPLOYED SITE: https://transpilyzer-repl.netlify.app/
 4. Styling - Bootstrap
 5. Miscellaneous - Lodash
 
-## Transpiling Code Once The User Stops Typing
+## 💎 Transpiling Code Once The User Stops Typing
 Without adding a transpilation delay feature in the application, the error message / output is displayed immediately while you are still typing. This is introduces bad User Experience (UX). So to fix this, the debounce method provided by lodash was used. This allows you to execute some code after a certain number of milliseconds has passed. Therefore in this application, the conversion/transpile function is called after 1000 milliseconds (after 1 second has passed) once user stops typing.
 
-## Features
+## ⚡ Features
 
 1. Transpilation of modern JavaScript to backward compatible JavaScript
 2. TypeScript transpilation support
@@ -25,6 +25,6 @@ Without adding a transpilation delay feature in the application, the error messa
 4. Error dispay upon invalid syntax
 5. Remember unsaved changes even when you exit the browser (Code autosave)
 
-## Running locally
+## ⚙️ Running locally
 
 At the root of your project run <code>npm i</code> and <code>npm start</code> to start the application.
