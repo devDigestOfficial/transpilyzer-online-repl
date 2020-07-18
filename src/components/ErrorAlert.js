@@ -15,7 +15,7 @@ const ErrorAlert = () => {
        
             <pre
                 id="error-section"
-                className="alert alert-danger rounded-0 mb-0" role="alert">
+                className="alert bg-danger text-light rounded-0 mb-0" role="alert">
                 {error.errorMessage}
             </pre>
 
