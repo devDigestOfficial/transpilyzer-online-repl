@@ -1,4 +1,4 @@
-![Transpilyzer Logo](https://github.com/devDigestOfficial/transpilyzer-online-repl/blob/master/src/images/esx-es5.svg)
+![Transpilyzer Logo](src/images/esx-es5.svg)
 
 # Transpilyzer Online REPL
 Transpilyzer Online REPL is used for transpiling next generation JavaScript  code into a backwards compatible version of JavaScript in real-time.
