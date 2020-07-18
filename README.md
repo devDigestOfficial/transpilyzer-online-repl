@@ -24,7 +24,7 @@ Without adding a transpilation delay feature in the application, the error messa
 2. TypeScript transpilation support
 3. React (JSX) transpilation support
 3. Light Mode and Night Mode
-4. Error dispay upon invalid syntax
+4. Error display upon invalid syntax
 5. Remember unsaved changes even when you exit the browser (Code autosave)
 
 ## ⚙️ Running Locally
