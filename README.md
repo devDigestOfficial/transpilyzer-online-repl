@@ -5,7 +5,7 @@ Transpilyzer Online REPL is used for transpiling next generation JavaScript  cod
 
 Check out the [deployed site](https://transpilyzer-repl.netlify.app/)
 
-## 📦 Core packages
+## 📦 Core Packages
 
 1. Frontend - React
 2. Code Editor - Codemirror
@@ -25,6 +25,6 @@ Without adding a transpilation delay feature in the application, the error messa
 4. Error dispay upon invalid syntax
 5. Remember unsaved changes even when you exit the browser (Code autosave)
 
-## ⚙️ Running locally
+## ⚙️ Running Locally
 
 At the root of your project run <code>npm i</code> and <code>npm start</code> to start the application.
