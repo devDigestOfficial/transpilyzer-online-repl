@@ -30,3 +30,14 @@ Without adding a transpilation delay feature in the application, the error messa
 ## ⚙️ Running Locally
 
 At the root of your project run <code>npm i</code> and <code>npm start</code> to start the application.
+
+
+## UI
+
+### Light Mode
+
+![Light Theme](screenshots/Transpilyzer REPL - Light Mode Demo.gif)
+
+### Night Mode
+
+![Night Theme](screenshots/Transpilyzer REPL - Night Mode Demo.gif)
