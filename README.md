@@ -36,8 +36,8 @@ At the root of your project run <code>npm i</code> and <code>npm start</code> to
 
 ### Light Mode
 
-![Light Theme]("screenshots/Transpilyzer_REPL-Light_Mode_Demo.gif")
+![Light Theme](screenshots/Transpilyzer_REPL-Light_Mode_Demo.gif)
 
 ### Night Mode
 
-![Night Theme]("screenshots/Transpilyzer_REPL-Night_Mode_Demo.gif")
+![Night Theme](screenshots/Transpilyzer_REPL-Night_Mode_Demo.gif)
