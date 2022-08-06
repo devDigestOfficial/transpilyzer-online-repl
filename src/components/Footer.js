@@ -11,7 +11,7 @@ function Footer() {
         <footer className="d-flex align-items-center text-muted bg-dark justify-content-center">&copy; {(new Date()).getFullYear()}, Made with
             <span id="heart-icon" className="px-1 animated infinite pulse delay-2s" role="img" aria-label="heart icon">
                 <FontAwesomeIcon icon={faHeart}/>
-            </span> by Clarence Love
+            </span> by clarnx
             <span className="px-1" role="img" aria-label="arrow icon">
                 <FontAwesomeIcon icon={faArrowRight}/>
             </span>
